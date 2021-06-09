@@ -1,6 +1,15 @@
 // Write your solution in this file!
-var customerName
+var customerName = "bob"
 
-var upperCustomerName = () => customername.toUpperCase()
+var upperCaseCustomerName = () => customername.toUpperCase()
 
-var setBestCustomer = () => {var bestCustomer = "Not Bob";}
+var setBestCustomer = () => {
+  var bestCustomer = "not Bob";
+}
+
+var overwriteBestCustomer = () => bestCustomer = 'ricky'
+
+const leastFavoriteCustomer = "bob"
+var changeLeastFavoriteCustomer = () => {
+  leastFavoriteCustomer = "Ricky"
+}
